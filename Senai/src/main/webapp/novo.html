@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cadastrar Usuário</title>
+<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/origami-23/64/Cat_origami_paper_craft_creative-256.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Novo Usuário</h1>
+	<form name="frmUsuario" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome do Usuário" class="Caixa"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="endereco" placeholder="Endereço do Usuário" class="Caixa"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="documento" placeholder="CPF do Usuário" class="Caixa"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
